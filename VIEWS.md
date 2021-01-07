@@ -1,7 +1,7 @@
 # Dashboard
 
 - `/`
-  - statystyki dzisiejszych zamówień (zdlane i lokalne)
+  - statystyki dzisiejszych zamówień (zdalne i lokalne)
   - lista rezerwacji i eventów zaplanowanych na dzisiaj
 
 # Logowanie
