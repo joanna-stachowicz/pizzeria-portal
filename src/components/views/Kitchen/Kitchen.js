@@ -13,7 +13,7 @@ import Switch from '@material-ui/core/Switch';
 const demoData = [
   { no: 123, table: 4, dine: 'Salad', details: 'cucumber, tomatoes, cheese, fresh herbs, black pepper', done: false },
   { no: 234, table: 6, dine: 'Pizza', details: 'sauce: tomato; toppings: olives, green peppers, salami; crust: wholewheat', done: true },
-  { no: 456, table: 6, dine: 'Pizza', details: 'sauce: tomato; toppings: olives, green peppers, salami; crust: wholewheat', done: true },
+  { no: 345, table: 6, dine: 'Pizza', details: 'sauce: tomato; toppings: olives, green peppers, salami; crust: wholewheat', done: true },
   { no: 456, table: 6, dine: 'Pizza', details: 'sauce: tomato; toppings: olives, green peppers, salami; crust: wholewheat', done: true },
 ];
 

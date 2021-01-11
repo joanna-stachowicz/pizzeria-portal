@@ -1,5 +1,4 @@
 import React from 'react';
-import { ThemeProvider } from '@material-ui/styles';
 import { withStyles } from '@material-ui/core/styles';
 import styles from './Dashboard.module.scss';
 import Table from '@material-ui/core/Table';
@@ -43,16 +42,16 @@ const Dashboard = props => (
       <TableContainer component={Paper}>
         <Table className={styles.table}>
           <TableHead>
-            <ThemeProvider>
-              <TableRow className={styles.header}>
-                <StyledTableCell>Remote</StyledTableCell>
-                <StyledTableCell>Local</StyledTableCell>
-              </TableRow>
-            </ThemeProvider>
+            <TableRow className={styles.header}>
+              <StyledTableCell>Remote</StyledTableCell>
+              <StyledTableCell>Local</StyledTableCell>
+            </TableRow>
           </TableHead>
           <TableBody>
-            <TableCell align="center">15</TableCell>
-            <TableCell align="center">10</TableCell>
+            <TableRow>
+              <TableCell align="center">15</TableCell>
+              <TableCell align="center">10</TableCell>
+            </TableRow>
           </TableBody>
         </Table>
       </TableContainer>
@@ -62,13 +61,11 @@ const Dashboard = props => (
       <TableContainer component={Paper}>
         <Table className={styles.table}>
           <TableHead>
-            <ThemeProvider>
-              <TableRow className={styles.header}>
-                <StyledTableCell>Table</StyledTableCell>
-                <StyledTableCell>Time</StyledTableCell>
-                <StyledTableCell>Duration</StyledTableCell>
-              </TableRow>
-            </ThemeProvider>
+            <TableRow className={styles.header}>
+              <StyledTableCell>Table</StyledTableCell>
+              <StyledTableCell>Time</StyledTableCell>
+              <StyledTableCell>Duration</StyledTableCell>
+            </TableRow>
           </TableHead>
           <TableBody>
             {demoContent.map(row => (

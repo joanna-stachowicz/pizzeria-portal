@@ -11,9 +11,9 @@ const Login = props => (
   <div className={styles.component}>
     <div>
       <FormControl margin="normal">
-        <InputLabel htmlFor="input-with-icon-adornment">Login</InputLabel>
+        <InputLabel htmlFor="login-input">Login</InputLabel>
         <Input
-          id="input-with-icon-adornment"
+          id="login-id"
           startAdornment={
             <InputAdornment position="start">
               <AccountCircleIcon />
@@ -24,9 +24,9 @@ const Login = props => (
     </div>
     <div>
       <FormControl margin="normal">
-        <InputLabel htmlFor="input-with-icon-adornment">Password</InputLabel>
+        <InputLabel htmlFor="password-input">Password</InputLabel>
         <Input
-          id="input-with-icon-adornment"
+          id="password-id"
           startAdornment={
             <InputAdornment position="start">
               <AccountCircleIcon />
