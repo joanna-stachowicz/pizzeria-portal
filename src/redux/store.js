@@ -7,7 +7,7 @@ import tablesReducer from './tablesRedux';
 // define initial state and shallow-merge initial data
 const initialState = {
   tables: {
-    data: {},         // tablica stolików pobrana z API
+    data: [],         // tablica stolików pobrana z API
     loading: {        // informacje o wczytywaniu danych
       active: false,  // inf. czy trwa wczytywanie
       error: false,   // ew. komunikat o błędzie
